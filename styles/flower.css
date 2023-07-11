@@ -59,7 +59,7 @@ nav a {
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-    background-color: rgb(239, 201, 151);
+    background-color: rgba(229, 84, 115, 0.10);
 
 }
 
@@ -114,28 +114,31 @@ nav a {
 
 
 }
-.flower{
-    text-align: center;}
 
-.section-title{
+.flower {
+    text-align: center;
+}
+
+.section-title {
     font-size: 20px;
     margin: 10px auto;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
 }
+
 .sale {
-    padding: 20px 30px 0px 100px;
+    
     height: 400px;
     weight: 1000px;
     margin-top: 20px;
-    background-color: rgb(231, 146, 34);
+    background-color:  rgba(229, 84, 115, 0.05);
     justify-content: center;
     display: flex;
     align-items: center;
     margin-top: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+
 
 
 }
@@ -157,19 +160,28 @@ nav a {
 
 .sale-title {
     font-size: 30px;
-    font-weight: 600;
     margin-top: 5px;
     margin-bottom: 20px;
+    margin-right: 20px;
+    
 
 
 }
 
 .skills-container {
     margin-right: 200px;
-   margin-left: 10px;
-   margin-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    gap: 10px;
     display: flex;
-    padding: 20px;
+
+
+}
+
+skill {
+    padding: 30px;
+
+
 }
 
 .deal {
