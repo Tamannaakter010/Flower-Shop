@@ -1,0 +1,163 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
+}
+
+.nav-title {
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.text-primary {
+    color: #FD6E0A;
+
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    color: white;
+
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.banner {
+    padding: 30px 30px 0px 100px;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+    background-color: rgb(239, 201, 151);
+
+}
+
+.banner-content {
+    max-width: 400px;
+}
+
+.banner .profile-pic {
+
+    width: 360px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+.banner-description {
+    margin-top: 5px;
+    ;
+}
+
+.header {
+    background-color: #fbf9f7;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+
+
+
+}
+
+
+
+.about {
+    padding: 18px 22px;
+    border-radius: 8px;
+    margin: 30px;
+    color: #272727;
+    text-align: center;
+    font-size: 12px;
+
+
+}
+
+.sale {
+    padding: 30px 30px 0px 100px;
+
+    height: 400px;
+    margin-top: 20px;
+    background-color: rgb(231, 146, 34);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.sale-content {
+    max-width: 300px;
+}
+
+.sale .profile-pic {
+
+    width: 300px;
+}
+
+.sale-greeting {
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.sale-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+.sale-description {
+    margin-top: 5px;
+    ;
+}
+
+.deal {
+    height: 200px;
+    weight: 50% background-color: rgb(231, 146, 34);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    background-image: url('../Flower\ Asset/Rectangle 9.png')
+}
