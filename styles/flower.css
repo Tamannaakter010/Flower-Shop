@@ -1,9 +1,9 @@
-body {
+.body {
     font-family: 'Open Sans', sans-serif;
-    border: 2px;
+
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +16,12 @@ nav {
     font-family: Open Sans;
     font-size: 45px;
     font-weight: 800;
-    margin-bottom: 0;
-}
+    margin-bottom: 0px;
+    margin-right: 10px;
+    justify-content: space-between;
+   display: flex;
 
+}
 .text-primary {
     color: #FD6E0A;
 
@@ -189,8 +192,8 @@ skill {
     width: 1440px;
     height: 249px;
     text-align: center;
-    margin-right: 25px;
-    margin-left: 150px;
+    margin-right:100px;
+    margin-left: 50px;
     padding-top: 30px;
 
 }
@@ -214,4 +217,7 @@ skill {
 .footer-greeting {
 
     color: #fbf9f7;
+}
+.footer-color{
+    color: #e81321;
 }
